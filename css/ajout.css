@@ -1,0 +1,85 @@
+/* Réinitialisation des marges et paddings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mise en page du corps pour centrer le formulaire */
+body{
+    background-color: slategrey;
+    display: flex;
+    flex-direction: column; /* Permet d'afficher les éléments en colonne */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style du formulaire */
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px; /* Augmentation du padding pour plus d’espace */
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Largeur définie */
+}
+
+/* Titre du formulaire */
+h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Séparateur visuel */
+hr{
+    margin: 10px 0;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+
+/* Style des champs de saisie */
+input{ 
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+
+/* Style du bouton de soumission */
+input[type="submit"], button{
+    margin-top: 10px;
+    background-color: slategrey;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Effet au survol des boutons */
+input[type="submit"]:hover, button:hover {
+    background-color: darkslategrey;
+}
+
+/* Alignement du texte des paragraphes */
+p{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Style des liens */
+p a{
+    text-decoration: none;
+    color: slategray;
+}
+
+/* Effet au survol des liens */
+p a:hover{
+    text-decoration: underline;
+}

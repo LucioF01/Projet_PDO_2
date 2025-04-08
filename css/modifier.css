@@ -1,0 +1,82 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CENTRAGE DU FORMULAIRE */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* STYLES DU FORMULAIRE */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* TITRE */
+form h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* LIGNE DE SÉPARATION */
+form hr {
+    margin-bottom: 20px;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+}
+
+/* CHAMPS */
+form input[type="text"],
+form input[type="date"],
+form select,
+form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #fdfdfd;
+}
+
+/* TEXTAREA PLUS GRAND */
+form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* BOUTONS */
+form button,
+input[type="button"] {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover,
+input[type="button"]:hover {
+    background-color: #5a6268;
+}
